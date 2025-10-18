@@ -2,7 +2,7 @@
 
 A content-based movie recommender system built with Python and Streamlit that suggests movies based on content similarity.
 
-**[➡️ https://movie-recommendation-systemgit-koccfgxfsx48artrpnxsvw.streamlit.app]**  ---
+**[➡️ https://movie-recommendation-system-38nx.onrender.com/]**  ---
 
 ## 📖 About The Project
 
