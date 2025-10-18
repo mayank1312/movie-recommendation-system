@@ -24,9 +24,13 @@ def recommend(movie):
         recommended_movies_poster.append(fetch_poster(movies.iloc[i[0]].movie_id))
     return recommended_movies,recommended_movies_poster
 
+st.write("App started...")
 movies_dict=pickle.load(open('movies_dict.pkl', 'rb'))
+st.write("Loaded movies dictionary...")
 similarity=pickle.load(open('similarity.pkl','rb'))
+st.write("Loaded similarity matrix...")
 movies=pd.DataFrame(movies_dict)
+st.write("Created DataFrame...")
 title=movies['title'].values
 st.title("Movie Recommender System")
 selected_movie_name=option=st.selectbox("Pick one", title)
